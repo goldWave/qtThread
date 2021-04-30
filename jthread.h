@@ -11,8 +11,7 @@ public:
     JThread();
     ~JThread() override;
 
-    QThread *m_nowThread = nullptr;
-  public slots:
+public slots:
     void startMethod();
 protected:
     void run() override;

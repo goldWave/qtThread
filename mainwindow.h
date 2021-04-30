@@ -26,11 +26,15 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_moveToButton_clicked();
 
-    void on_pushButton_3_clicked();
+    void on_semphoreButton_clicked();
 
-    void on_pushButton_4_clicked();
+    void on_pushButton_qTread_clicked();
+
+    void on_pushButton_test_clicked();
+
+    void on_pushButton_QTConcurrent_clicked();
 
 private:
     Ui::MainWindow *ui;

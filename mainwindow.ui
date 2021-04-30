@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>967</width>
     <height>600</height>
    </rect>
   </property>
@@ -19,33 +19,6 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="label_x">
-      <property name="text">
-       <string>这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
-这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
-这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="label">
-      <property name="styleSheet">
-       <string notr="true">#label {
-	min-width:277px;
-	max-width:277px;
-    background-color: transparent;
-}</string>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p style='white-space: pre-wrap;width:100%;'&gt;这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。这是一些文本。
-&lt;span style='color:#c34151;font-weight:normal;'&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-      <property name="wordWrap">
-       <bool>true</bool>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QPushButton" name="pushButton">
       <property name="text">
        <string>QRunnable</string>
@@ -53,23 +26,37 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="pushButton_qTread">
       <property name="text">
        <string>QThread</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="pushButton_test">
       <property name="text">
-       <string>QWorker-handle-thread</string>
+       <string>QWorker-handle-thread   test</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="moveToButton">
       <property name="text">
-       <string>QThread - Move to Thread</string>
+       <string>QThread - Move to Thread - 多线程但不能控制数量</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="semphoreButton">
+      <property name="text">
+       <string>QThread - Move to Thread - 信号量 - 多线程能控制线程数量</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_QTConcurrent">
+      <property name="text">
+       <string>QTConcurrent::run</string>
       </property>
      </widget>
     </item>
@@ -80,7 +67,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>967</width>
      <height>26</height>
     </rect>
    </property>
